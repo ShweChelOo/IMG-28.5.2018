@@ -1,0 +1,89 @@
+#header ul{
+	    margin:0px;
+	    padding:0px;
+	    list-style: none;
+	}
+
+
+#header li{
+	    float: left;
+	    margin:0px;
+	    padding:0px;
+    }
+
+#header li a{
+	    display:block;
+	    width:150px;
+	    background-color: white;
+	    margin-right:5px;
+	    text-align:center;
+	    text-decoration-color: black;
+    }
+
+100 - website's width / 12 columns = 8.33%
+.col-1{width:8.33%;
+padding:20px;
+border:2px solid black;}
+.col-2{width:16.67%;
+padding:20px;
+border:2px solid black;}
+.col-3{width:24.99%;
+padding:20px;
+border:2px solid black;}
+.col-4{width:33.32%;
+padding:20px;
+border:2px solid black;}
+.col-5{width:41.65%;
+padding:20px;
+border:2px solid black;}
+.col-6{width:49.98%;
+border: 2px solid black;
+padding: 20px;}
+.col-7{width:58.31%;
+padding:20px;
+border:2px solid black;}
+.col-8{width:66.64%;
+padding:20px;
+border:2px solid black;}
+.col-9{width:74.97%;
+padding:20px;
+border:2px solid black;}
+.col-10{width:83.3%;
+padding:20px;
+border:2px solid black;}
+.col-11{width:91.63%;
+padding:20px;
+border:2px solid black;}
+.col-12{width:99.96%;
+padding:20px;
+border:2px solid black;}
+
+.row {
+	display: inline-flex;
+	width: 100%;
+	border:1px solid black;
+	margin:5px;
+}
+
+body {
+	background-image: url('wallpaper.jpg');
+	background-size:100%;
+}
+
+.center{
+	position: center;
+	padding:20px;
+	text-align: center;
+}
+
+.map {
+	width:100%;
+}
+.col-sm-3{
+	width:50%;
+	padding:20px;
+	border:1px solid black;
+}
+
+
+
